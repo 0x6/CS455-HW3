@@ -34,7 +34,7 @@
     <mkdir dir="${dist}"/>
 
     <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
-    <jar jarfile="${dist}/analysis.jar" basedir="${build}"/>
+    <jar jarfile="${dist}/wordcount.jar" basedir="${build}"/>
   </target>
 
   <target name="clean"
